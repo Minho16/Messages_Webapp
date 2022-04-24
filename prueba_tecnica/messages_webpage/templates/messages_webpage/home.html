@@ -1,0 +1,11 @@
+{% extends 'messages_webpage/base.html' %} {% load static %} {% block content %}
+<div class="container2">
+  <h2>Let's talk! This is a public room</h2>
+</div>
+{% for message in messages %}
+
+<h4>{{ message.userid }}</h4>
+<p>{{ message.text }} ({{ message.time }})</p>
+<br />
+
+{% endfor %} {% endblock content %}

@@ -1,0 +1,30 @@
+{% extends 'messages_webpage/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    {% if user.is_authenticated and message_name == user.username%}
+
+    <form action="" method = "POST" enctype= multipart/form-data>
+    {% csrf_token %}
+    <table class="table">
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="Submit" class="button2">
+    </form> 
+
+    {% endif %}
+    <div class="container2">
+    <h2> Hello {{ user.username }}!  This is {{ message_name }}'s room! </h2>
+    </div>
+    {% for message in messages %}
+
+        <h4> {{ message.userid }}  </h4>
+        <p> {{ message.text }} ({{ message.time }}) </p>  
+        <br>
+
+    {% endfor %}    
+
+{% endblock content %}
