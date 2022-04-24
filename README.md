@@ -1,15 +1,19 @@
 # Messages_Webapp
 
-This is a web application where everyone (users and non-users) can see other users' messages and upload in case of registrated ones.
+This is a web application where both users and non-users can see other users' messages and upload in case of registered ones.
 
 
-(1) Main page with all items shown
-![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image1.png?raw=true)
+## (1) Home Page
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image1.PNG?raw=true)
 
-(2) Main page when the cart-drawer is open
-![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image2.png?raw=true)
+## (2) Registration Page
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image2.PNG?raw=true)
 
-![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image3.png?raw=true)
+## (3) User Page (when visiting user's page as owner) 
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image3.PNG?raw=true)
+
+## (4) User Page (when visiting other user's page)
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image4.PNG?raw=true)
 
 # How to setup
 
@@ -58,8 +62,6 @@ Login		  => 127.0.0.1:8000/login
 Logout		=> 127.0.0.1:8000/logout
 User page => 127.0.0.1:8000/user/<username>
   
-
-
 
 # Need to be improved: 
 
