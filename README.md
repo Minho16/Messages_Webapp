@@ -4,11 +4,12 @@ This is a web application where everyone (users and non-users) can see other use
 
 
 (1) Main page with all items shown
-![alt text](https://github.com/Minho16/K_Food_Order-Project/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image1.png?raw=true)
 
 (2) Main page when the cart-drawer is open
-![alt text](https://github.com/Minho16/K_Food_Order-Project/blob/main/image2.jpg?raw=true)
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image2.png?raw=true)
 
+![alt text](https://github.com/Minho16/Messages_Webapp/blob/main/image3.png?raw=true)
 
 # How to setup
 
